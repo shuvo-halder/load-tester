@@ -8,10 +8,10 @@ import (
 )
 
 const (
-    TARGET_URL        = "http://103.131.144.51:8089" 
-    DURATION          = 10 * time.Minute         
-    CONCURRENT_USERS  = 20                       
-    REQUEST_INTERVAL  = 1 * time.Second          
+    TARGET_URL        = "http://odoo.acquirespot.xyz" 
+    DURATION          = 2 * time.Minute         
+    CONCURRENT_USERS  = 50
+    REQUEST_INTERVAL  = 1 * time.Second
 )
 
 
